@@ -1,4 +1,4 @@
-package uniquestring
+package randomstring
 
 import (
 	"github.com/knq/baseconv"

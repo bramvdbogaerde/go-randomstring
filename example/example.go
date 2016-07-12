@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/bramvdbogaerde/go-uniquestring"
+	"github.com/bramvdbogaerde/go-randomstring"
 )
 
 func main() {
 	// Generate a random unique string
-	s := uniquestring.New()
+	s := randomstring.New()
 	fmt.Println(s)
 }
